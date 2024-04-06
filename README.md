@@ -1,7 +1,7 @@
 -----
 ### Folder Structure
 -----
-< 파일 구조 설명 >
+< 폴더 구조 설명 >
 1. Controller : URL에 따라 요청을 제일 먼저 받아서 처리하는 Servlet 파일 보관
 2. Service : Controller와 DAO 사이에서 비즈니스 로직(데이터를 가져와서 2차적으로 가공)을 작성하는 클래스 파일 보관
 3. DAO : DB와 통신하여 데이터를 가져오고 DTO 객체로 저장하여 서비스 클래스로 전달
