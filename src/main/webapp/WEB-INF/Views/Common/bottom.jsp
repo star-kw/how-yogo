@@ -4,7 +4,7 @@
 	<head>
 	  <meta charset="UTF-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link rel="stylesheet" href="/Resources/CSS/Common/bottom.css">
+	  <link rel="stylesheet" href="<%= request.getContextPath() %>/Resources/CSS/Common/bottom.css">
 	  <title>Bottom</title>
 	</head>
 	
@@ -14,7 +14,7 @@
 	
 	    <div class="content">
 	      <div class="logo">
-	        <img class="logo_image" src="/Resources/Image/Common/footer_logo.png">
+	        <img class="logo_image" src="<%= request.getContextPath() %>/Resources/Image/Common/footer_logo.png">
 	      </div>
 	      
 	      <div class="footer_space"></div>
@@ -34,8 +34,8 @@
 	        </div>
 	
 	        <div class="icon">
-	          <div class="github"><a href="#"><img src="/Resources/Image/Common/github.png"></a></div>
-	          <div class="instagram"><a href="#"><img src="/Resources/Image/Common/instagram.png"></a></div>
+	          <div class="github"><a href="#"><img src="<%= request.getContextPath() %>/Resources/Image/Common/github.png"></a></div>
+	          <div class="instagram"><a href="#"><img src="<%= request.getContextPath() %>/Resources/Image/Common/instagram.png"></a></div>
 	        </div>
 	      </div>
 	    </div>

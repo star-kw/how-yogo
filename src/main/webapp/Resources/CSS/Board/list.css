@@ -1,0 +1,39 @@
+* {
+  padding:0;
+}
+
+section {
+    padding: 0px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+  
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    border: none;
+}
+
+table th, table td {
+    padding: 0px; 
+    border: none;
+}
+
+th {
+	font-size: 14px;
+	font-weight: bold;
+	height: 40px;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* 하단 메뉴(바로가기, 글쓰기) 영역 스타일 */
+.bottom {
+    margin-top: 20px; /* 하단 메뉴와 테이블 사이의 간격 설정 */
+    border-collapse: collapse; /* 테이블 경계를 합치고 선을 표시하지 않음 */
+}
+
+.bottom td {
+    padding: 10px; /* 셀 내용과 경계 사이의 여백 추가 */
+    border: 1px solid #dddddd; /* 테이블 셀 경계선 스타일 설정 */
+}

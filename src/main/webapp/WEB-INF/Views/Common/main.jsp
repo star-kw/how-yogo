@@ -1,14 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>¿ä°í, ¾î¶§?</title>
+<meta charset="UTF-8">
+<title>ìš”ê³ , ì–´ë•Œ?</title>
+<link rel="icon" href="/Resources/Image/Common/menu_logo.png"> 
 </head>
 <body>
-	<header>
-		<jsp:include page="top.jsp"/>
-	</header>
+	<jsp:include page="top.jsp"/>
 	
 	<section>
 		<jsp:include page="center.jsp"/>
